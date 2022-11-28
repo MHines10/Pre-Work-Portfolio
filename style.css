@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MechanismoRegular-p7ywa";
+  src: url(fonts/mechanismo-font/MechanismoRegular-p7ywa.otf);
+}
+
+@font-face {
+  font-family: "AlienRavagerItalic-4B214";
+  src: url("fonts/alien-ravager-font/AlienRavagerItalic-4B214.ttf");
+}
+
+@font-face {
+  font-family: "RobtronikaItalic-0Wqn9";
+  src: url("fonts/robtronika-font/RobtronikaItalic-0Wqn9.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+/* applies to all pages... BG and nav */
+body,
+html {
+  flex: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: url(images/techbg2.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.main-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.226);
+  background-image: url(images/techbg4.png);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  border-style: double;
+  border-color: rgb(128, 128, 128);
+  border-radius: 10px;
+  border-width: 5px;
+  background-blend-mode: multiply;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 2em;
+  color: rgb(255, 255, 255);
+  font-family: "RobtronikaItalic-0Wqn9";
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.347);
+  color: black;
+  border-radius: 35%;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: larger;
+  font-weight: lighter;
+}
+
+.main-nav li {
+  padding: 0 5px;
+}
+
+.head1 {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-family: "MechanismoRegular-p7ywa";
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+  text-emphasis: none;
+  text-shadow: 2px 2px 2px white;
+}
+/* main footer applied to each pg */
+.foot {
+  width: 100%;
+  background-image: url(images/techbg4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-style: double;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.55);
+  position: relative;
+}
+/* main section design for each page */
+.main-sec {
+  display: inline-block;
+  margin-right: 30em;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  padding-left: 15px;
+  border: groove white 5px;
+  border-radius: 15px;
+  background-image: url(images/techbg3.png);
+  background-color: rgba(0, 0, 0, 0.833);
+  background-blend-mode: multiply;
+  font-family: "PressStart2P-Regular";
+  font-weight: normal;
+  font-size: large;
+}
+/* home pg img */
+.home-img {
+  margin-left: 8em;
+  margin-top: 3em;
+  height: 350px;
+  width: 400px;
+  border-style: groove;
+  border-radius: 50%;
+}
+/* Header of each page */
+.main-sec h2 {
+  margin: 0;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  text-shadow: 0px 0px 10px rgb(255, 0, 0);
+  font-size: 300%;
+  font-family: "AlienRavagerItalic-4B214";
+  font-weight: normal;
+}
+
+/* about me image */
+.abtme-img {
+  width: 50%;
+  height: 15%;
+  float: left;
+  margin: 15px;
+  border-style: groove;
+  border-radius: 25%;
+}
+/* hobbies */
+.ma-img {
+  float: right;
+  margin: 15px;
+  width: 60%;
+  border-style: groove;
+  border-radius: 30%;
+}
+/* main content text glow */
+.main-sec p {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgb(22, 82, 160);
+}
+/* hobby list glow */
+.main-sec ul {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgb(160, 22, 22);
+}
+/* hobby list */
+.main-sec li {
+  display: block;
+}
+
+.form {
+  width: 70%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-left: 15px;
+  border: groove white 5px;
+  border-radius: 15px;
+  background-image: url(images/techbg3.png);
+  background-color: rgba(0, 0, 0, 0.833);
+  background-blend-mode: multiply;
+  font-family: "PressStart2P-Regular";
+  font-weight: normal;
+  font-size: large;
+  text-shadow: 0px 0px 15px rgb(22, 82, 160);
+}
+
+.label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+iframe {
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 8%;
+}
+
+.hobby {
+  width: 75%;
+  padding-bottom: 20px;
+}
+
+.hobby a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 0px 15px rgb(22, 82, 160);
+  font-weight: normal;
+  font-size: larger;
+  padding-left: 20px;
+}
+
+.hobby a:hover {
+  color: rgb(6, 113, 252);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.ytlogo {
+  border-radius: 35%;
+}
+
+.con-me {
+  width: 100%;
+}
+
+.hm-pg {
+  width: 85%;
+}
+
+.abt-me {
+  width: 70%;
+}
